@@ -1,6 +1,7 @@
 #header {
+  background: url('/assets/header.jpg') no-repeat;
+  background-size: 100% 100%;
   background-color: #000;
-  align-self: center;
 }
 body {
   background: url('/assets/background.jpg') no-repeat;
