@@ -1,12 +1,12 @@
+#header {
+  background-color: #fff;
+  align-self: center;
+}
 body {
   background: url('/assets/background.jpg') no-repeat;
   background-size: 100% 100%;
-  background-color: #fff;
-  margin: 0;
-}
-#header {
   background-color: #000;
-  align-self: center;
+  margin: 0;
 }
 img {
     border-radius: 10px 10px 0 0;
