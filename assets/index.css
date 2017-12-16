@@ -18,16 +18,13 @@ img {
     transition: 0.3s;
     width: 250px;
     border-radius: 50px;
-    background-color: #fff;
 }
 
 .Xeoncard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      background-color: #fff;
 }
 .Xeoncontainer {
     padding: 2px 16px;
-    background-color: #fff;
 }
 
 .Arcadecard {
@@ -35,14 +32,11 @@ img {
     transition: 0.3s;
     width: 250px;
     border-radius: 50px;
-    background-color: #fff;
 }
 
 .Arcadecard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background-color: #fff;
 }
 .Arcadecontainer {
     padding: 2px 16px;
-    background-color: #fff;
 }
