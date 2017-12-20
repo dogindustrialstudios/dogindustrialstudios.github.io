@@ -25,7 +25,8 @@ body {
   position: fixed;
   top: 0;
   background-color: white;
-  margin: 3px;
+  padding: 10px 12px;
+  border-radius: 20px;
 }
 .chip {
     display: inline-block;
