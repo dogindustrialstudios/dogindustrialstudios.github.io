@@ -1,7 +1,6 @@
 <a onclick="window.location.href = '#application=arcade';">hi</a>
 <script>
-
-var app = getUrlVars()["app"];
+  
 function getUrlVars() {
 var vars = {};
 var parts = window.location.href.replace(/[#]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
@@ -9,10 +8,7 @@ vars[key] = value;
 });
 return vars;
 }
-run();
-function run() {
-  if (app == arcade) {
-      alert('Arcade');
-  }
-}
+var app = getUrlVars()["app"];
+
+alert(app);
 </script>
