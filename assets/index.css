@@ -24,7 +24,8 @@ body {
   overflow: hidden;
   position: fixed;
   top: 0;
-  background-color: black;
+  background-color: white;
+  margin: 3px;
 }
 .chip {
     display: inline-block;
