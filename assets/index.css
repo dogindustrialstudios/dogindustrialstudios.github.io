@@ -20,6 +20,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.navbutton {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: black;
+}
 .chip {
     display: inline-block;
     padding: 0 25px;
