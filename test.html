@@ -1,18 +1,12 @@
-<a onclick="window.location.href = '#application=arcade';getUrlVars();">hi</a>
+<a onclick="window.location.href = '#application=arcade';">hi</a>
 <script>
 
-var app = getUrlVars()["application"];
+var app = getUrlVars()["app"];
 function getUrlVars() {
 var vars = {};
 var parts = window.location.href.replace(/[#]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
 vars[key] = value;
 });
 return vars;
-setTimeout(appdoes, 1000);
-}
-function appdoes() {
-  if (app == "arcade") {
-    window.location.href = 'https://dog12312.github.io';
-  }
 }
 </script>
