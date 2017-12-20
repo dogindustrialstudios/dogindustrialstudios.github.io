@@ -8,8 +8,11 @@ var parts = window.location.href.replace(/[#]+([^=&]+)=([^&]*)/gi, function(m,ke
 vars[key] = value;
 });
 return vars;
-if (app == "arcade") {
-    window.location.href = 'https://dog12312.github.io';
+setTimeout(appdoes, 1000);
 }
+function appdoes() {
+  if (app == "arcade") {
+    window.location.href = 'https://dog12312.github.io';
+  }
 }
 </script>
