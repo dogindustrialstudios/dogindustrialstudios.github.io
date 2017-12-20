@@ -3,13 +3,13 @@
 
 var app = getUrlVars()["application"];
 function getUrlVars() {
-if (app == "arcade") {
-    window.location.href = 'https://dog12312.github.io';
-}
 var vars = {};
 var parts = window.location.href.replace(/[#]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
 vars[key] = value;
 });
 return vars;
+if (app == "arcade") {
+    window.location.href = 'https://dog12312.github.io';
+}
 }
 </script>
