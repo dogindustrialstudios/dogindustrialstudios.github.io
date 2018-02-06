@@ -1,0 +1,12 @@
+<title>Please Wait</title>
+<link rel="shortcut icon" href="/logo.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/logo.ico" type="image/x-icon">
+<body onload="setTimeout(load, 5000)">
+  <img src="https://www.demilked.com/magazine/wp-content/uploads/2016/06/gif-animations-replace-loading-screen-2.gif" alt="" style="100%">
+  <script>
+  function load() {
+    var redirect = ["/","",""]
+    window.location.href = redirect[Math.floor(Math.random() * 3)]
+  }
+  </script>
+</body>
