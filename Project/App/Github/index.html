@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <link rel="apple-touch-icon" href="touch-icon-iphone.png">
-  <title>Twitter</title>
+  <title>Github</title>
   <script  src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="  crossorigin="anonymous"></script>
   <style type="text/css">
   @media (min-width: 30em) {
@@ -20,8 +20,8 @@
   //var uiWebView = /(iPhone|iPod|iPad).*AppleWebKit(?!.*Version)/i.test(navigator.userAgent);
   var openedFromDesktop = window.navigator.standalone
   if (openedFromDesktop == true) {
-    window.location.replace("twitter://");
-    $( "top-message" ).text("Click Here to Open Twitter");
+    window.location.href("https://github.com");
+    $( "top-message" ).text("Click Here to Open Github");
     $( "top-message" ).hide();
   };
   </script>
@@ -29,7 +29,7 @@
 <body>
 <div class="row top-message">
   <div class="col center">
-    <a class="text" href="twitter://">Change Twitter Logo (kind of)</a>
+    <a class="text" href="https://github.io">Change Twitter Logo (kind of)</a>
   </div>
 </div>
 <!--<div class="row">
