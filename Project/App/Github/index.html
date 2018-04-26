@@ -20,7 +20,7 @@
   //var uiWebView = /(iPhone|iPod|iPad).*AppleWebKit(?!.*Version)/i.test(navigator.userAgent);
   var openedFromDesktop = window.navigator.standalone
   if (openedFromDesktop == true) {
-    window.location.href("https://github.com");
+    window.location.replace("https://github.com");
     $( "top-message" ).text("Click Here to Open Github");
     $( "top-message" ).hide();
   };
@@ -29,7 +29,7 @@
 <body>
 <div class="row top-message">
   <div class="col center">
-    <a class="text" href="https://github.io">Change Twitter Logo (kind of)</a>
+    <a class="text" href="https://github.com">Change Github Logo (kind of)</a>
   </div>
 </div>
 <!--<div class="row">
